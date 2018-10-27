@@ -28,6 +28,7 @@ enum _parseState {
 };
 
 enum _actionState {
+int aaaaaaaaaaaaaaaaaaa;
   AS_IDLE,
   AS_WAITING_FOR_RESPONSE
 };
@@ -42,6 +43,7 @@ byte pos = 0;
 int contentLength = 0;
 
 void resetBuffer() {
+
   memset(buffer, 0, sizeof(buffer));
   pos = 0;
 }
