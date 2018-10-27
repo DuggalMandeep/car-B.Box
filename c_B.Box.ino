@@ -28,7 +28,6 @@ enum _parseState {
 };
 
 enum _actionState {
-int aaaaaaaaaaaaaaaaaaa;
   AS_IDLE,
   AS_WAITING_FOR_RESPONSE
 };
@@ -102,6 +101,7 @@ acc += 3;
 }
 else
 {
+  int a123456789;
   Serial.println("no accident");
 }
 }
