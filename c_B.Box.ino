@@ -28,7 +28,7 @@ enum _parseState {
 };
 
 enum _actionState {
-int aaaaaaaaaaaaaaaaaaa;
+int aaaaaaaaaaa=1;
   AS_IDLE,
   AS_WAITING_FOR_RESPONSE
 };
