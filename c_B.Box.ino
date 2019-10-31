@@ -174,7 +174,7 @@ acc=0;
   sendGSM("AT+SAPBR=1,1",3000);acid();
   sendGSM("AT+HTTPINIT");  
   sendGSM("AT+HTTPPARA=\"CID\",1");
-  //Serial.println(ll);
+  //Serial.println(ll); Serial.println(ll);
 delay(500);
   sendGSM(ll,3000);
    //   sendGSM("AT+HTTPPARA=\"URL\",\"http://www.iforce2d.net/test.php\"");
