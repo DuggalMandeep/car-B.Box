@@ -163,7 +163,7 @@ Serial.println(alv);
               g+="&acc=0";
               Serial.println("accident not occur");
             }
-        g+="\"";//g+='\n';
+        g+="\"";//g+='\n'; g+='\n'; g+='\n';
 char *ll = const_cast<char*>(g.c_str());
 acc=0;
 
