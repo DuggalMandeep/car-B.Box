@@ -96,7 +96,7 @@ if((ttx>ttx1+10 || ttx>ttx1+10 || ttx>ttx1+10 )&& (ttx1!=0&&tty1!=0&&ttz1!=0 ))
 acc++;
 }
 if((ttx>ttx1+30 || ttx>ttx1+30 || ttx>ttx1+30 )&& (ttx1!=0&&tty1!=0&&ttz1!=0 ))
-{//Serial.println(ttx);Serial.print(" ");Serial.print(tty);Serial.print(" ");Serial.print(ttz);
+{//Serial.println(ttx);Serial.print(" ");Serial.print(tty);Serial.print(ttz);
   Serial.println("accident");
 acc += 3;
 }
