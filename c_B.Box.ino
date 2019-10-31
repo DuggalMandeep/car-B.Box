@@ -91,7 +91,7 @@ ttz=analogRead(A2);
   ttz = RAD_TO_DEG * (atan2(-yAng, -xAng) + PI);
 
 if((ttx>ttx1+10 || ttx>ttx1+10 || ttx>ttx1+10 )&& (ttx1!=0&&tty1!=0&&ttz1!=0 ))
-{//Serial.println(ttx);Serial.print(" ");Serial.print(tty);Serial.print(" ");Serial.print(ttz);
+{//Serial.println(ttx);Serial.print(" ");Serial.print(tty);Serial.print(" ");Serial.print(ttz);Serial.print(" ");
   Serial.println("accident");
 acc++;
 }
