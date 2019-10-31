@@ -141,7 +141,7 @@ Serial.println(alv);
             g+=a;g+="&longitude=";
     dtostrf(llon,2,6,a);
             g+=a;g+="&speed=";
-      //      Serial.println(g);
+      //      Serial.println(g); Serial.println(g);
     dtostrf(lspeed,2,2,a);
     //Serial.println(a);
             g+=a;g+="&x_cord=";
